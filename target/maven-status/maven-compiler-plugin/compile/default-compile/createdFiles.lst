@@ -1,0 +1,6 @@
+com\allure\TestExecutionListener.class
+com\allure\TestStepReporter.class
+com\com\mainpages\IDLHomePage.class
+com\allure\EventHandler.class
+com\pageobject\Page.class
+com\driver\WebDriverFactory.class

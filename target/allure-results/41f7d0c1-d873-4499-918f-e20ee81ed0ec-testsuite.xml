@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1518519716719" stop="1518519772593" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>IDL : ChromeTesting[browserName=chrome]</name>
+    <title>IDL : ChromeTesting[browserName=chrome]</title>
+    <test-cases>
+        <test-case start="1518519732545" stop="1518519740407" status="passed">
+            <name>checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack</name>
+            <steps>
+                <step start="1518519732716" stop="1518519733602" status="passed">
+                    <name>clickOnPricingButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1518519733612" stop="1518519733695" status="passed">
+                    <name>checkPresentsOfPricingPage</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Browser screenshot after test failed" source="518ad0df-fc77-4737-9ce8-d7737aa1efac-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testId" value="1"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="7460@Nazar.TestNG(13)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518519754396" stop="1518519764260" status="passed">
+            <name>checkWindowHandle</name>
+            <steps>
+                <step start="1518519754399" stop="1518519754995" status="passed">
+                    <name>clickOnPricingButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1518519755001" stop="1518519758548" status="passed">
+                    <name>createAndSwitch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Browser screenshot after test failed" source="53ea2fb8-19f0-40f6-83a0-2b051872f1ab-attachment.png" type="image/png"/>
+                <attachment title="Browser screenshot after test failed" source="15b1ca80-b618-475b-a1c3-a598a97be0d4-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testId" value="2"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="7460@Nazar.TestNG(13)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

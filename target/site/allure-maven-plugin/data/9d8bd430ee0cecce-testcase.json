@@ -1,0 +1,68 @@
+{
+  "uid" : "9d8bd430ee0cecce",
+  "name" : "checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack",
+  "title" : "Check if user redirected to pricing screen from home and return back",
+  "time" : {
+    "start" : 1513263850368,
+    "stop" : 1513263860830,
+    "duration" : 10462
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "8d75b48f0e0fd8a7",
+    "name" : "IDL : ChromeTesting[browserName=chrome]",
+    "title" : "IDL : ChromeTesting[browserName=chrome]"
+  },
+  "steps" : [ {
+    "name" : "clickOnPricingButton",
+    "title" : "Click on pricing button",
+    "time" : {
+      "start" : 1513263851018,
+      "stop" : 1513263852407,
+      "duration" : 1389
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Browser screenshot after test failed",
+    "source" : "d3552a7f-f722-4454-ab1b-855de622a105-attachment.png",
+    "type" : "image/png",
+    "size" : 35526,
+    "uid" : "480c93b84f27758f"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "Nazar"
+  }, {
+    "name" : "thread",
+    "value" : "5996@Nazar.TestNG(14)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "IDL : ChromeTesting[browserName=chrome]"
+  }, {
+    "name" : "suite-name",
+    "value" : "IDL : ChromeTesting[browserName=chrome]"
+  } ],
+  "parameters" : [ ]
+}

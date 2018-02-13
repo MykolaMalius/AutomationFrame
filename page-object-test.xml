@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IDL" verbose="5" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="com.allure.TestExecutionListener"/>
+    </listeners>
+    <test name="ChromeTesting">
+        <!--<parameter name="config" value="single.conf.json"/>-->
+        <parameter name="browserName" value="chrome"/>
+        <groups>
+            <run>
+                <include name="main"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.mainpagetest.MainPageTest" />
+        </classes>
+    </test>
+    <test name="FirefoxTesting">
+        <!--<parameter name="config" value="single.conf.json"/>-->
+        <parameter name="browserName" value="firefox"/>
+        <groups>
+            <run>
+                <exclude name="main"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.mainpagetest.MainPageTest" />
+        </classes>
+    </test>
+    <!--<test name="SafariTesting">-->
+        <!--&lt;!&ndash;<parameter name="config" value="single.conf.json"/>&ndash;&gt;-->
+        <!--<parameter name="browserName" value="safari"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<exclude name="main"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+
+        <!--<classes>-->
+            <!--<class napages"com.mainpagetest.MainPageTest" />-->
+        <!--</classes>-->
+    <!--</test>-->
+</suite>

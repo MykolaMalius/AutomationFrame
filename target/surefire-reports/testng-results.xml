@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b><a href="file:///C:\Users\M.Malyus\IdeaProjects\AutomationFramework/target/screenshots/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack_14_12_2017_05_04_16.png" target='_blank' ><p><br/><img src="file:///C:\Users\M.Malyus\IdeaProjects\AutomationFramework/target/screenshots/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack_14_12_2017_05_04_16.png" width="600" height="400" alt=""/><br/></p></a></b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b><a href="file:///C:\Users\M.Malyus\IdeaProjects\AutomationFramework/target/screenshots/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack_14_12_2017_05_04_32.png" target='_blank' ><p><br/><img src="file:///C:\Users\M.Malyus\IdeaProjects\AutomationFramework/target/screenshots/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack_14_12_2017_05_04_32.png" width="600" height="400" alt=""/><br/></p></a></b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<b><a href="file:///C:\Users\M.Malyus\IdeaProjects\AutomationFramework/target/screenshots/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack_14_12_2017_05_04_34.png" target='_blank' ><p><br/><img src="file:///C:\Users\M.Malyus\IdeaProjects\AutomationFramework/target/screenshots/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack_14_12_2017_05_04_34.png" width="600" height="400" alt=""/><br/></p></a></b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspFailed<p>]]>
+    </line>
+  </reporter-output>
+  <suite name="IDL" duration-ms="60150" started-at="2017-12-14T15:03:41Z" finished-at="2017-12-14T15:04:41Z">
+    <groups>
+      <group name="main">
+        <method signature="MainPageTest.checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack()[pri:0, instance:com.mainpagetest.MainPageTest@7d47dfed]" name="checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack" class="com.mainpagetest.MainPageTest"/>
+        <method signature="MainPageTest.checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack()[pri:0, instance:com.mainpagetest.MainPageTest@795f6681]" name="checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack" class="com.mainpagetest.MainPageTest"/>
+      </group> <!-- main -->
+    </groups>
+    <test name="ChromeTesting" duration-ms="60150" started-at="2017-12-14T15:03:41Z" finished-at="2017-12-14T15:04:41Z">
+      <class name="com.mainpagetest.MainPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mainpagetest.MainPageTest@7d47dfed]" name="setup" is-config="true" duration-ms="28659" started-at="2017-12-14T17:03:41Z" finished-at="2017-12-14T17:04:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack()[pri:0, instance:com.mainpagetest.MainPageTest@7d47dfed]" name="checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack" duration-ms="2110" started-at="2017-12-14T17:04:10Z" finished-at="2017-12-14T17:04:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b><a href="file:///C:\Users\M.Malyus\IdeaProjects\AutomationFramework/target/screenshots/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack_14_12_2017_05_04_16.png" target='_blank' ><p><br/><img src="file:///C:\Users\M.Malyus\IdeaProjects\AutomationFramework/target/screenshots/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack_14_12_2017_05_04_16.png" width="600" height="400" alt=""/><br/></p></a></b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b><a href="file:///C:\Users\M.Malyus\IdeaProjects\AutomationFramework/target/screenshots/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack_14_12_2017_05_04_34.png" target='_blank' ><p><br/><img src="file:///C:\Users\M.Malyus\IdeaProjects\AutomationFramework/target/screenshots/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack/checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack_14_12_2017_05_04_34.png" width="600" height="400" alt=""/><br/></p></a></b><p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mainpagetest.MainPageTest@7d47dfed]" name="tearDown" is-config="true" duration-ms="4346" started-at="2017-12-14T17:04:37Z" finished-at="2017-12-14T17:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mainpagetest.MainPageTest -->
+    </test> <!-- ChromeTesting -->
+  </suite> <!-- IDL -->
+</testng-results>

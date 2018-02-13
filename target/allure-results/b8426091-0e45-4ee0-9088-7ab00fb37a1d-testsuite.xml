@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1513345660802" stop="1513345715097" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>IDL : FirefoxTesting[browserName=firefox]</name>
+    <title>IDL : FirefoxTesting[browserName=firefox]</title>
+    <test-cases>
+        <test-case start="1513345700589" stop="1513345707509" status="passed">
+            <name>checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack</name>
+            <steps>
+                <step start="1513345700601" stop="1513345701240" status="passed">
+                    <name>clickOnPricingButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Browser screenshot after test failed" source="05a08b5d-3ba7-467a-b329-e12a026fe097-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="11504@Nazar.TestNG(14)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

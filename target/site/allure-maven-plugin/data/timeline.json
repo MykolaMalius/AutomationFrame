@@ -1,0 +1,34 @@
+{
+  "hosts" : [ {
+    "title" : "Nazar",
+    "threads" : [ {
+      "title" : "5996@Nazar.TestNG(15)",
+      "testCases" : [ {
+        "uid" : "ab06fd0ec613d00c",
+        "name" : "checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack",
+        "title" : "Check if user redirected to pricing screen from home and return back",
+        "time" : {
+          "start" : 1513263867266,
+          "stop" : 1513263875947,
+          "duration" : 8681
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "title" : "5996@Nazar.TestNG(14)",
+      "testCases" : [ {
+        "uid" : "9d8bd430ee0cecce",
+        "name" : "checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack",
+        "title" : "Check if user redirected to pricing screen from home and return back",
+        "time" : {
+          "start" : 1513263850368,
+          "stop" : 1513263860830,
+          "duration" : 10462
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

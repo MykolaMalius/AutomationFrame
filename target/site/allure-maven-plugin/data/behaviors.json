@@ -1,0 +1,48 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "f5f828c4fadc3607",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "ab06fd0ec613d00c",
+        "name" : "checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack",
+        "title" : "Check if user redirected to pricing screen from home and return back",
+        "time" : {
+          "start" : 1513263867266,
+          "stop" : 1513263875947,
+          "duration" : 8681
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9d8bd430ee0cecce",
+        "name" : "checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack",
+        "title" : "Check if user redirected to pricing screen from home and return back",
+        "time" : {
+          "start" : 1513263850368,
+          "stop" : 1513263860830,
+          "duration" : 10462
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

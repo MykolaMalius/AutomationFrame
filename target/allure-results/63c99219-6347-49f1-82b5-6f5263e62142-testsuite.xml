@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1513345660861" stop="1513345711544" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>IDL : ChromeTesting[browserName=chrome]</name>
+    <title>IDL : ChromeTesting[browserName=chrome]</title>
+    <test-cases>
+        <test-case start="1513345682222" stop="1513345691587" status="passed">
+            <name>checkIfUserRedirectedToPricingScreenFromHomeAndReturnBack</name>
+            <steps>
+                <step start="1513345682650" stop="1513345684277" status="passed">
+                    <name>clickOnPricingButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Browser screenshot after test failed" source="7a7afc3a-86f1-409d-8602-2b91be11c15e-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="11504@Nazar.TestNG(13)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

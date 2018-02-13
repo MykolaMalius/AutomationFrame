@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [IDL]" parallel="tests">
+  <parameter name="browserName" value="firefox"/>
+  <listeners>
+    <listener class-name="com.allure.TestExecutionListener"/>
+  </listeners>
+  <test name="ChromeTesting">
+    <parameter name="browserName" value="chrome"/>
+    <groups>
+      <run>
+        <include name="main"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mainpagetest.MainPageTest"/>
+    </classes>
+  </test> <!-- ChromeTesting -->
+  <test name="FirefoxTesting">
+    <parameter name="browserName" value="firefox"/>
+    <groups>
+      <run>
+        <include name="main"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mainpagetest.MainPageTest"/>
+    </classes>
+  </test> <!-- FirefoxTesting -->
+</suite> <!-- Failed suite [IDL] -->
